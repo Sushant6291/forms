@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>demo 3</title>
+  <style>
+    #form{
+      background-color: aqua;
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <form id="form">
+    <h1>College exam form</h1>
+    FirstName : <input type="text" name="fname" placeholder="First Name" required > </b><br> <br>
+
+    LastName : <input type="text" name="lname" placeholder="Last Name" required><br> <br>
+    Email: <input type="email" name="email"><br><br>
+    Mobile: <input type="text" name="mobile" maxlength="10" required> <br> <br>
+    Password : <input type="password" name="password" required><br> <br>
+    Gender : <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <br> <br>
+
+    Hobby: <input type="checkbox" name="hobby" value="playing">Playing
+    <input type="checkbox" name="hobby" value="reading">Reading
+    <input type="checkbox" name="hobby" value="Cooking">Cooking
+    <input type="checkbox" name="hobby" value="Travelling">Travelling <br> <br>
+
+    Select: <select name="cars">
+      <option value="fortuner">Fortuner</option>
+      <option value="fiat">Fiat</option>
+      <option value="skoda">Skoda</option>
+      <option value="toyota">Toyota</option>
+      <option value="demo" selected>Demo</option>
+
+    </select> <br><br>
+    Comment: <textarea name="comment" cols="50" rows="5"></textarea> <br><br>
+    Datalist: <input list="browser" name="browser">
+    <datalist id="browser">
+      <option value="internet explorer">
+      <option value="fire fox">
+      <option value="chrome">
+    </datalist> <br><br>
+    Colour: <input type="color" name="colour" id="#00000"><br><br>
+    Date: <input type="date" name="date">
+    <br><br>
+    Quantity: <input type="number" name="quantity" min="0" max="50" step="5"> <br><br>
+    Select Image: <input type="file" name="Image" multiple><br><br>
+    <input type="submit" value="send">
+    <input type="reset" value="reset all values">
+
+  </form>
+
+
+</body>
+
+</html>
